@@ -40,7 +40,7 @@
       })
       .then((profile) => {
         window.location.replace(
-          `https://docs.google.com/forms/d/e/1FAIpQLSe5DUyQqtEoECYz-7M9y41cwXNq5Q48lh1mED15t_dA748gpQ/viewform?usp=pp_url&entry.251316401=${profile.userId}&entry.1429900973=${profile.displayName}&entry.1134896048=${profile.pictureUrl}&entry.1683825984=${profile.statusMessage}`
+          `https://docs.google.com/forms/d/e/1FAIpQLSe5DUyQqtEoECYz-7M9y41cwXNq5Q48lh1mED15t_dA748gpQ/viewform?usp=pp_url&entry.251316401=${profile.userId}&entry.1429900973=${profile.displayName}&entry.1134896048=${profile.pictureUrl}&entry.1683825984=${profile.statusMessage}&entry.939152641=${liff.getDecodedIDToken().email}`
         );
       });
 
